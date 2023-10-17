@@ -2,6 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -391,6 +394,11 @@ nav .navigation li a:hover{
 #experts .expert-box .profile{
     background: #98d260;
     padding: 30px 10px;
+}
+
+#experts .expert-box .profile h2{
+    font-family: 'Dancing Script', cursive;
+    color: black;
 }
 
 #experts .expert-box .pro-links{
